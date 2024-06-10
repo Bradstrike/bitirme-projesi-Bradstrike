@@ -71,9 +71,9 @@ class LoginPage:
             return
 
         db = mysql.connector.connect(
-            host="127.0.0.1",
-            user="root",
-            password="Robonull5388!!",
+            host="your_local_mysql_host",
+            user="root", #mysql user
+            password="your_local_mysql_user_password",
             database="data_viewer"
         )
 
@@ -107,9 +107,9 @@ class LoginPage:
             return
 
         db = mysql.connector.connect(
-            host="127.0.0.1",
-            user="root",
-            password="Robonull5388!!",
+            host="your_local_mysql_host",
+            user="root", #mysql user
+            password="your_local_mysql_user_password",
             database="data_viewer"
         )
 
